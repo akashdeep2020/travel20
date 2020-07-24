@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 250px;
+}
+.nav-item {
+    padding: 0px 48px 0px 0px;
+}
