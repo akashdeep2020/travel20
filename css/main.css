@@ -1,7 +1,7 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
-}
+}*/
 .bg-light {
     background-color: #ffffff!important;
 }
@@ -14,8 +14,15 @@ body{
     padding-left: 0px;
     margin-bottom: 0;
     list-style: none;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 .nav-item {
     padding: 0px 48px 0px 0px;
+}
+
+@media only screen and (max-width:991px){
+    .navbar-nav {
+       
+        margin-left: 50px;
+    }
 }
