@@ -54,6 +54,7 @@
                 </li>
               </ul>
         <!--Modal: Login / Register Form-->
+        
         <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog cascading-modal" role="document">
             <!--Content-->
@@ -171,7 +172,7 @@
                 </div>   
               </div> -->
               <div class="carousel-item active">
-                <img src="images/02.jpg" alt="dubai">
+                <img class="img-responsive" src="images/02.jpg" alt="dubai" style="width: 100%;">
                 <div class="carousel-caption">
                   <h1>Travel Dubai With Us</h1>
                   <button type="button" class="btn btn-secondary">Explore Now</button>
@@ -194,30 +195,42 @@
           </div>
       </div>
 </div>
-    <div class="row" style="background-color:darkcyan; height: 80px;">
-        <h5>Where you want to travel</h5>
-        <form action="/action_page.php">
-          <div class="form-group">
-            <select class="form-control" id="sel1" name="sellist1">
-              <option>Select City/Country for travel</option>
-              <option>Thailand</option>
-              <option>Dubai</option>
-              <option>Goa</option>
-            </select>
-            <select class="form-control" id="sel1" name="sellist1">
-              <option>Select City/Country for travel</option>
-              <option>Thailand</option>
-              <option>Dubai</option>
-              <option>Goa</option>
-            </select>
-          </div>
-        </form>
-    </div>
-      
-
+  
+    <div class="d-md-flex justify-content-center align-items-center bg-primary">
+        <div class="p-2"><h6>Where you want to travel?</h6>
+        </div>
+        <div class="p-2">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <select class="form-control" id="sel1" name="sellist1" >
+                <option value="" disabled selected>Choose your city/country</option>
+                <option>Thailand</option>
+                <option>Dubai</option>
+                <option>Goa</option>
+                <option>Russai</option>
+                <option>Bali</option>
+                <option>Phuket</option>
+              </select>
+            </div>  
+            </form>
+        </div>
+        <div class="p-2">
+          <button type="button" class="btn btn-secondary">Search</button>
+        </div>
+      </div>
+          
   
   
-    
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
 </body>
 </html>
