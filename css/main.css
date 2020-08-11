@@ -107,13 +107,13 @@ h1, h6{
 .destination-list-one{
     text-align: center;
     padding: 0px 0px 0px 80px;
-    /* transition: linear .5s; */
+    transition: linear .5s;
     
 }
-/* .destination-list-one:hover{
+.destination-list-one:hover{
     transform: scale(1.1);
 }
- */
+
 
 
 
