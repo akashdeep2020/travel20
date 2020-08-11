@@ -19,7 +19,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color:black;
-    transition: linear .3s;
+    transition: linear .8s;
     
 }
 
@@ -27,6 +27,7 @@
     color: black;
     transform: scale(1.1);
     font-weight: 500;
+    /* text-decoration: underline; */
 }
 .nav-item {
     padding: 0px 48px 0px 0px;
@@ -84,23 +85,35 @@ h1, h6{
     padding: .55rem 2.14rem;
     font-size: .81rem;
 }
-.bg-primary {
-    background-color: #050c28 !important;
+
+
+.selection-elements{
+    background-color: #eaeaea;
 }
-.p-2 {
-    padding: .5rem!important;
-    color: #ffff;
+.row-text{
+    margin: 18px 0px 0px 280px;
+}
+.row-form{
+    margin: 10px 0px 0px 0px;
+}
+.row-button{
+    margin: 6px 0px 0px -28px;
 }
 
-
-
-
-
-
-
-
-
-
+.heading-text{
+    text-align: center;
+    padding: 14px;
+}
+.destination-list-one{
+    text-align: center;
+    padding: 0px 0px 0px 80px;
+    /* transition: linear .5s; */
+    
+}
+/* .destination-list-one:hover{
+    transform: scale(1.1);
+}
+ */
 
 
 
