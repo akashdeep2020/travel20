@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }*/
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 .bg-light {
     background-color:#ffffff!important;
 }
@@ -19,7 +24,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color:black;
-    transition: linear .8s;
+    transition: linear 2s;
     
 }
 
@@ -104,6 +109,7 @@ h1, h6{
     animation-delay: 600ms; 
     animation-name: fadeInUp;
 }
+
 .destination-list-one{
     text-align: center;
     transition: linear .5s;
@@ -121,6 +127,24 @@ h1, h6{
     color: #fff;
     background-color: #eb7f21 !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
