@@ -59,13 +59,17 @@ h1, h6{
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 100px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    
+}
+.carousel-caption h1{
+    font-size: 50px;
 }
 
 .btn {
@@ -91,15 +95,7 @@ h1, h6{
 .selection-elements{
     background-color: #eaeaea;
 }
-.row-text{
-    margin: 18px 0px 0px 280px;
-}
-.row-form{
-    margin: 10px 0px 0px 0px;
-}
-.row-button{
-    margin: 6px 0px 0px -28px;
-}
+
 
 .heading-text{
     text-align: center;
@@ -110,7 +106,6 @@ h1, h6{
 }
 .destination-list-one{
     text-align: center;
-    padding: 0px 0px 0px 80px;
     transition: linear .5s;
 
     
@@ -133,7 +128,6 @@ h1, h6{
 
 @media only screen and (max-width:991px){
     .navbar-nav {
-       
         margin-left: 40px;
     }
     .modal{
@@ -142,8 +136,39 @@ h1, h6{
 }
 
 @media only screen and (max-width:767px){
-    .justify-content-sm-center {
-        justify-content: center!important;
-    }
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 80px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
     
 }
+.carousel-caption h1{
+    font-size: 40px;
+}
+
+}
+@media only screen and (max-width:576px){
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 40px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 8px;;
+    }
+    .carousel-caption h1{
+        font-size: 28px;
+    }
+    
+    }
+
