@@ -22,22 +22,22 @@ html {
     margin-left: 150px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+/* .navbar-light .navbar-nav .nav-link {
     color:black;
     transition: linear 2s;
     
-}
+} */
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: black;
     transform: scale(1.1);
     font-weight: 500;
     border-bottom: 3px solid #eb7f21 !important;
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 .nav-item {
     padding: 0px 48px 0px 0px;
-}
+} */
 .btn-default {
     color: #fff;
     background-color: #eb7f21 !important;
@@ -109,7 +109,13 @@ h1, h6{
     animation-delay: 600ms; 
     animation-name: fadeInUp;
 }
-
+.col-lg-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 29.333333%;
+    flex: 0 0 29.333333%;
+    max-width: 29.333333%;
+    margin: auto;
+}
 .destination-list-one{
     text-align: center;
     transition: linear .5s;
@@ -160,9 +166,9 @@ h1, h6{
         animation: glowing 1600ms infinite;
       }
 
-.polgif img{
-    height: 25px;
-}
+    .polgif img{
+        height: 25px;
+    }
 
 
 
