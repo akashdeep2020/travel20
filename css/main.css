@@ -46,13 +46,19 @@ html {
     color: #fff;
     background-color: #eb7f21 !important;
 }
-h1, h6{
+h1, h2, h6{
     font-weight: 400;
+    font-family: 'Oxanium', cursive;
 }
 .travel-details{
    display: inline-block;
 }
-
+.btn:not(:disabled):not(.disabled) {
+    font-family: 'Oxanium', cursive;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    font-family: 'Oxanium', cursive;
+}
 .search-trip{
     background-color:#050c28; 
     height: 70px;
@@ -75,8 +81,17 @@ h1, h6{
 }
 .carousel-caption h1{
     font-size: 50px;
+    font-family: 'Oxanium', cursive;
 }
-
+.card-title {
+    font-family: 'Oxanium', cursive;
+}
+.card .card-body .card-text {
+    font-family: 'Oxanium', cursive; 
+}
+.form-control {
+    font-family: 'Oxanium', cursive; 
+}
 .btn {
     margin: .360rem;
     color: inherit;
@@ -119,6 +134,7 @@ h1, h6{
 .destination-list-one{
     text-align: center;
     transition: linear .5s;
+    cursor: pointer;
 
     
 }
@@ -136,15 +152,15 @@ h1, h6{
 
 .button {
         background-color: #eb7f21;
-        -webkit-border-radius: 60px;
-        border-radius: 60px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
         border: none;
         color: #eeeeee;
         cursor: pointer;
         display: inline-block;
         font-family: sans-serif;
-        font-size: 18px;
-        padding: 10px 10px;
+        font-size: 15px;
+        padding: 7px 7px;
         text-align: center;
         text-decoration: none;
       }
