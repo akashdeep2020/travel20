@@ -1,11 +1,11 @@
-/* body{
+body{
     margin: 0;
     padding: 0;
-}*/
+}
 
 html {
     scroll-behavior: smooth;
-  }
+}
   
 .bg-light {
     background-color:#ffffff!important;
@@ -147,16 +147,13 @@ h1, h6{
 } 
 
 
-.col-lg-4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 29.333333%;
-    flex: 0 0 29.333333%;
-    max-width: 29.333333%;
-    margin: auto;
-}
+
+
+
 .destination-list-one{
     text-align: center;
     transition: linear .5s;
+    padding-left: 40px;
 
     
 }
@@ -234,12 +231,6 @@ h1, h6{
             font-family: "Montserrat-Medium";
             border-radius: 4px;
         }
-
-       
-   
-
-
-
 
 
 
