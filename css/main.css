@@ -184,7 +184,9 @@ h1, h6{
     .polgif img{
         height: 25px;
     }
-
+    .before-text{
+        font-weight: 500;
+    }
     .heading{
         
             padding: 12px;
