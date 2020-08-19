@@ -10,10 +10,11 @@ $(document).on('ready', function() {
 
     // });
     $('.slider').slick({
-        dots: true,
+        centerMode: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000,
+        dots: false,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -24,7 +25,7 @@ $(document).on('ready', function() {
               slidesToShow: 2,
               slidesToScroll: 2,
               infinite: true,
-              dots: true
+              dots: false
             }
           },
           {
@@ -33,7 +34,7 @@ $(document).on('ready', function() {
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: false
             }
           },
         //   {
