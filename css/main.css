@@ -127,8 +127,15 @@ h1, h6{
 } 
 
 
-
-
+.card{
+    width:90%;
+    
+}
+.card .yt-card{
+    width:100%;
+    
+    
+}
 
 .destination-list-one{
     text-align: center;
@@ -267,6 +274,10 @@ h1, h6{
     .modal{
         display:none;
     }
+    .dest-place{
+        margin-top: 60px;
+    margin-left: 24px;
+    }
 }
 
 @media only screen and (max-width:767px){
@@ -284,6 +295,14 @@ h1, h6{
 }
 .carousel-caption h1{
     font-size: 40px;
+}
+.destination-list-one{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.dest-place{
+margin-left: 40px;
+
 }
 
 
@@ -330,4 +349,58 @@ h1, h6{
     right: 39px;
 } 
 }
+
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .before-text::before{
+        content: "";
+        width: 25.333333%;
+        background-color: #E5E9F0;
+        height: 2px;
+        position: absolute;
+        top: 32px;
+        left: 35px;
+    }
+    
+     .before-text::after{
+        content: "";
+        width: 25.333333%;
+        background-color: #E5E9F0;
+        height: 2px;
+        position: absolute;
+        top: 32px;
+        right: 30px;
+    } 
+
+
+}
+@media only screen and (min-width:860px) and (max-width:992px){
+    .before-text::before{
+        content: "";
+        width: 25.333333%;
+        background-color: #E5E9F0;
+        height: 2px;
+        position: absolute;
+        top: 32px;
+        left: 35px;
+    }
+    
+     .before-text::after{
+        content: "";
+        width: 25.333333%;
+        background-color: #E5E9F0;
+        height: 2px;
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    } 
+
+
+}
+
+
+
+
+
+
 
